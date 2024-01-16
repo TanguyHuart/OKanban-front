@@ -1,0 +1,28 @@
+body {
+  background-color: #ccc;
+  height: 100vh;
+}
+
+#deleteListButton {
+	background-color: #bb1515;
+}
+.card-lists {
+  overflow-x: auto;
+}
+
+.panel {
+  animation: myAnim 200ms ease 0s 1 normal forwards;
+}
+.box {
+  animation: myAnim 200ms ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
